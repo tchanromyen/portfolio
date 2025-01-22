@@ -1,11 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>Teerat Chanromyen Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    Hello world!
+
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<header style="padding: 65px 16px 0px 16px;">
+    <div class="header-container">
+        <div style="padding-right: 40px;">
+            <img src="TeeratC.jpg" alt="Teerat Chanromyen" class="profile-pic">
+        </div>
+      <div>
+        <h1 class="name">Teerat Chanromyen</h1>
+        <div style="display: flex; align-items: center;">
+            <i class="fa fa-envelope" style="margin-left: 5px; margin-right: 8px;"></i>
+            <p class="email">teerat@chanromyen.com</p>
+        </div>
+      </div>
+    </div>
+</header>
+
+<div class="container" style="padding-top: 25px; margin-right: 80px;">
+
+    <!-- Who Am I Section -->
+    <section class="section" id="background">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <h2>Education</h2>
+        <p>University of Massachusetts Amherst</p>
+        <p>Bachelor's of Science double majoring in Computer Science and Applied Mathematics</p>
+        <ul>
+            <li><b>GPA: 4.0</b></li>
+            <li><b>Current Coursework: </b></li>
+            <li><b>Past CS Coursework: </b>
+                Object Oriented Programming <a href="https://people.cs.umass.edu/~jaimedavila/Courses/160/syllabus.pdf">CICS160</a>,
+                Data Structures <a href="https://people.cs.umass.edu/~liberato/courses/2024-spring-cics210/">CICS210</a>,
+                Programming Methodology <a href="https://people.cs.umass.edu/~marius/class/cs220-fa24/">COMPSCI220</a>,
+                Reasoning Under Uncertainty <a href="https://people.umass.edu/~andrewlan/files/240spring23_syllabus.pdf">COMPSCI240</a>,
+                Introduction to Computation <a href="https://people.cs.umass.edu/~barring/cs250s24/">COMPSCI250</a>,
+                Introduction to Research in the Discipline <a href="">CICS237</a>,
+            </li>
+            <li><b>Other Past Coursework: </b>
+                Math Puzzle,
+                Calculus II,
+                Multivariate Calculus,
+                Introduction to Linear Algebra,
+                Physics I
+            </li>
+        </ul>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <h2>Experience</h2>
+            <h3>Research Fellow | Early Research Scholar Program (ERSP) | Sep 2024 - Present</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+            <h3>Infrastructure Engineering Intern | Coda Payments | May 2024 - Aug 2024</h3>
+                <ul>
+                    <li>Designed an alert system for invalid configurations in ECS/Codedeploy deployment in the company-wide Deployment System (CDS), enhancing deployment reliability and troubleshooting capability.</li>
+                    <li>Delivered linear time complexity solution in validating the workflow definitions (similar to AWS Step Functions), improving deployment efficiency.</li>
+                    <li>Resolved a bug of incorrect deployment timestamps by integrating the Boto3 library with a MySQL database, ensuring accurate deployment tracking.</li>
+                    <li>Executed a feature in the Coda Deployment Tracker to export deployment details as a CSV file through a user-friendly datepicker, streamlining data analysis and reporting processes.</li>
+                </ul>
+            <h3>Data Science Intern | TISCO Financial Group | Sep 2022 - Oct 2022</h3>
+                <ul>
+                    <li>Collaborated with the Digital Banking team to predict second-hand car prices using a Scikit-Learn linear model.</li>
+                    <li>Proficiently retrieved web-scraped data from Google Big Query using SQL language, removed outlier values, and selected features such as a car’s make and model and manufactured year for model training.</li>
+                    <li>Designed an intuitive web application that allows users to make a prediction with the Streamlit framework.</li>
+                    <li>Completed daily exercise on code refactoring and Test-Driven Development principles in Python.</li>
+                </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="project">
+        <h2>Project</h2>
+        <h3>Backtestr</h3>
+            <ul>
+                <li>Developed a versatile back-testing platform for personalized investment strategies, allowing users to customize technical indicators, formulate complex buy/sell signals, and visualize portfolio performance over time.</li>
+            </ul>
+        <h3>Caesar Cipher Encoder-Decoder</h3>
+            <ul>
+                <li>Customized a user-centric Caesar Cipher encryption/decryption web application with adjustable keys, space removal, and string reversal features to minimize the possibilities of brute-force decryption.</li>
+                <li>Leveraged Google’s 1-gram corpus and spaCy for accurate text tokenization and Named Entity Recognition, enhancing the precision and formatting of decrypted messages.</li>
+            </ul>
+        <h3>NASA Space App Challenge</h3>
+            <ul>
+                <li>Forecasted solar Kp index with TensorFlow Long Short-Term Memory neural network utilizing data from Deep Space Climate Observatory (DSCOVR)- Nominated for global round judging.</li>
+            </ul>
+        <h3>StarClusterPlot</h3>
+            <ul>
+                <li>Published Python library on PyPI that helps generate a colorized star cluster’s Hertzsprung-Russell diagram and scatter plot visualization of the star cluster using data from the Sloan Digital Sky Survey (SDSS).</li>
+                <li>Developed python function that help convert star’s red and green magnitude to color in RGB using star’s magnitude transformation, Planckian locus approximation, and color conversion algorithms.</li>
+            </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>React, Node.js, Express.js</li>
+            <li>GitHub</li>
+            <li>Docker</li>
+            <!-- Add more skills here -->
+        </ul>
+    </section>
+</div>
+
+</div>
 </body>
 </html>

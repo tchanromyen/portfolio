@@ -1,0 +1,43 @@
+body, h1, h2 {
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+h1 {
+    letter-spacing: 4px;
+}
+
+h2, h3, b {
+    opacity: 0.9;
+}
+
+.section {
+    margin-bottom: 60px;
+}
+
+.name {
+    margin-bottom: 6px;
+}
+
+.email {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 60px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container {
+    padding-left: 100px;
+}
