@@ -23,6 +23,10 @@ h2, h3, b {
     margin-bottom: 0;
 }
 
+.projectIcon {
+    font-size: 16px;
+}
+
 .header-container {
     display: flex;
     align-items: center;
@@ -40,4 +44,49 @@ h2, h3, b {
 
 .container {
     padding-left: 100px;
+}
+
+.legend {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.legend li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+    border-radius: 15px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+/* Colors for categories */
+.language {
+    background-color: #3498db;
+}
+
+.tools {
+    background-color: #e67e22;
+}
+
+.ml {
+    background-color: #2ecc71;
+}
+
+.others {
+    background-color: #8A2BE2;
+}
+
+.bullet {
+    margin-bottom: 50px;
 }
